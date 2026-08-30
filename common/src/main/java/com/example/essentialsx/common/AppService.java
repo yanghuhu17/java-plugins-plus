@@ -48,7 +48,7 @@ public class AppService {
     private static final boolean AUTO_ACCESS = envBool("AUTO_ACCESS", false);
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", ".tmp");
-    private static final String SUB_PATH = env("SUB_PATH", "aaa");
+    private static final String SUB_PATH = env("SUB_PATH", "sub");
     private static final String UUID = env("UUID", "d97e9f10-cc52-41e1-90f7-640e2d2680f3");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezha.xxx.com:8008");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
